@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:palevioletred;
+    overflow-x: hidden;
+    background: url(rear-view-programmer-working-all-night-long.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.2rem;
+}
+
+.logo img{
+    width: 130px;
+    height: 55px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0.8rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fcf7f8;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+
+}
+
+nav ul li a:hover{
+    color: #fff;
+    font-weight: 600;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #fcf7f8;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+
+}
+
+.hire-me-top:hover{
+    box-shadow: inset 6.5rem 0 0 0 #43766c;
+    border: 1px solid #f2b6fc;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-container{
+    flex: 1;
+}
+
+h3{
+    margin-bottom: 1.2rem;
+    font-size: 3rem;
+    color: #ffe7e7;
+}
+
+span{
+    color: #e4ac14;
+}
+
+p{
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+    font-size: 1.8rem;
+    color: #d0ffce;
+}
+
+.btn-container{
+    display: flex;
+    gap: 3rem;
+}
+
+.download-cv{
+    background-color: #e4ac14;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.download-cv:hover{
+    background-color: transparent;
+    color: #fff;
+    letter-spacing: 0.03rem;
+
+}
+
+.hire-me{
+    background-color: #e4ac14;
+    color:#fff;
+
+    transition: all 0.3s ease;
+}
+
+.hire-me:hover{
+    background-color: transparent;
+    color: #fff;
+   letter-spacing: 0.03rem; 
+  }
+
+
+
+.img-container{
+    flex: 1;
+    position: relative;
+    left: 230px;
+    top: 180px;
+   
+}
+
+img{
+    width: 80%;
+   
+    cursor: pointer;
+}
+section{
+    padding: 6rem;
+    position: relative;
+    right: 190px;
+    bottom: 190px;
+    font-size: small;
+    }
+    section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    }
+    section.about h1 span{
+    color: var(--primary);
+    }
+    section.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    }
+    section.about p{
+    font-family: 'Lato', sans-serif;
+    color:white;
+    line-height: 1.9rem;
+    margin-bottom: 2rem;
+    }
+    section.about .socials{
+    display: flex;
+    }
+    section.about .socials a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    margin-right: 0.8rem;
+    
+    }
+     section.about .socials a:hover{
+   border: 2px solid green;
+    }
